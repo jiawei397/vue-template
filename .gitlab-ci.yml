@@ -1,0 +1,43 @@
+stages:
+  - install_deps
+  - lint
+  - unit
+  - build
+
+cache:
+    policy: pull
+    key: "$CI_COMMIT_REF_NAME"
+    paths:
+        - node_modules
+
+variables:
+  DOCKER_DRIVER: overlay2
+  GIT_STRATEGY: "fetch"
+
+install:
+  stage: install_deps
+  cache:
+  #      policy: push
+        key: "$CI_COMMIT_REF_NAME"
+        paths:
+            - node_modules
+  script:
+    - yarn install
+
+lint:
+  stage: lint
+  script:
+    - npm run lint
+
+unit:
+  stage: unit
+  script:
+    - npm run unit
+
+build:
+  stage: build
+#  only:
+#      - release
+  script:
+    - npm run build
+

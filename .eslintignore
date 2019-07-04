@@ -1,0 +1,4 @@
+dist/**/*.js
+.min.js
+/.idea/
+/public/
