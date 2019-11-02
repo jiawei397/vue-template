@@ -1775,11 +1775,6 @@ arrify@^1.0.1:
   resolved "https://npm.uinnova.cn/arrify/-/arrify-1.0.1.tgz#898508da2226f380df904728456849c1501a4b0d"
   integrity sha1-iYUI2iIm84DfkEcoRWhJwVAaSw0=
 
-asap@~2.0.3:
-  version "2.0.6"
-  resolved "https://npm.uinnova.cn/asap/-/asap-2.0.6.tgz#e50347611d7e690943208bbdafebcbc2fb866d46"
-  integrity sha1-5QNHYR1+aQlDIIu9r+vLwvuGbUY=
-
 asn1.js@^4.0.0:
   version "4.10.1"
   resolved "https://npm.uinnova.cn/asn1.js/-/asn1.js-4.10.1.tgz#b9c2bf5805f1e64aadeed6df3a2bfafb5a73f5a0"
@@ -1861,13 +1856,6 @@ async-settle@^1.0.0:
   dependencies:
     async-done "^1.2.2"
 
-async-validator@^1.10.0:
-  version "1.11.2"
-  resolved "https://npm.uinnova.cn/async-validator/-/async-validator-1.11.2.tgz#ca5e2ba31c15e9319cb2d873c2b137b67a198ead"
-  integrity sha1-yl4roxwV6TGcsthzwrE3tnoZjq0=
-  dependencies:
-    babel-runtime "6.x"
-
 async@^1.5.2:
   version "1.5.2"
   resolved "https://npm.uinnova.cn/async/-/async-1.5.2.tgz#ec6a61ae56480c0c3cb241c95618e20892f9672a"
@@ -1912,14 +1900,6 @@ aws4@^1.8.0:
   version "1.8.0"
   resolved "https://npm.uinnova.cn/aws4/-/aws4-1.8.0.tgz#f0e003d9ca9e7f59c7a508945d7b2ef9a04a542f"
   integrity sha1-8OAD2cqef1nHpQiUXXsu+aBKVC8=
-
-axios@^0.18.0:
-  version "0.18.1"
-  resolved "https://npm.uinnova.cn/axios/-/axios-0.18.1.tgz#ff3f0de2e7b5d180e757ad98000f1081b87bcea3"
-  integrity sha1-/z8N4ue10YDnV62YAA8Qgbh7zqM=
-  dependencies:
-    follow-redirects "1.5.10"
-    is-buffer "^2.0.2"
 
 babel-code-frame@^6.22.0, babel-code-frame@^6.26.0:
   version "6.26.0"
@@ -2075,7 +2055,7 @@ babel-plugin-transform-strict-mode@^6.24.1:
     babel-runtime "^6.22.0"
     babel-types "^6.24.1"
 
-babel-polyfill@6.26.0, babel-polyfill@^6.26.0:
+babel-polyfill@6.26.0:
   version "6.26.0"
   resolved "https://npm.uinnova.cn/babel-polyfill/-/babel-polyfill-6.26.0.tgz#379937abc67d7895970adc621f284cd966cf2153"
   integrity sha1-N5k3q8Z9eJWXCtxiHyhM2WbPIVM=
@@ -2105,7 +2085,7 @@ babel-register@^6.26.0:
     mkdirp "^0.5.1"
     source-map-support "^0.4.15"
 
-babel-runtime@6.26.0, babel-runtime@6.x, babel-runtime@^6.22.0, babel-runtime@^6.23.0, babel-runtime@^6.26.0:
+babel-runtime@6.26.0, babel-runtime@^6.22.0, babel-runtime@^6.23.0, babel-runtime@^6.26.0:
   version "6.26.0"
   resolved "https://npm.uinnova.cn/babel-runtime/-/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
   integrity sha1-llxwWGaOgrVde/4E/yM3vItWR/4=
@@ -2191,11 +2171,6 @@ base@^0.11.1:
     isobject "^3.0.1"
     mixin-deep "^1.2.0"
     pascalcase "^0.1.1"
-
-batch-processor@1.0.0:
-  version "1.0.0"
-  resolved "https://npm.uinnova.cn/batch-processor/-/batch-processor-1.0.0.tgz#75c95c32b748e0850d10c2b168f6bdbe9891ace8"
-  integrity sha1-dclcMrdI4IUNEMKxaPa9vpiRrOg=
 
 batch@0.6.1:
   version "0.6.1"
@@ -2845,14 +2820,6 @@ cli-width@^2.0.0:
   resolved "https://npm.uinnova.cn/cli-width/-/cli-width-2.2.0.tgz#ff19ede8a9a5e579324147b0c11f0fbcbabed639"
   integrity sha1-/xnt6Kml5XkyQUewwR8PvLq+1jk=
 
-cli@~1.0.0:
-  version "1.0.1"
-  resolved "https://npm.uinnova.cn/cli/-/cli-1.0.1.tgz#22817534f24bfa4950c34d532d48ecbc621b8c14"
-  integrity sha1-IoF1NPJL+klQw01TLUjsvGIbjBQ=
-  dependencies:
-    exit "0.1.2"
-    glob "^7.1.1"
-
 clipboardy@^2.0.0:
   version "2.1.0"
   resolved "https://npm.uinnova.cn/clipboardy/-/clipboardy-2.1.0.tgz#0123a0c8fac92f256dc56335e0bb8be97a4909a5"
@@ -2903,7 +2870,7 @@ clone-stats@^1.0.0:
   resolved "https://npm.uinnova.cn/clone-stats/-/clone-stats-1.0.0.tgz#b3782dff8bb5474e18b9b6bf0fdfe782f8777680"
   integrity sha1-s3gt/4u1R04Yuba/D9/ngvh3doA=
 
-clone@2.x, clone@^2.1.1, clone@^2.1.2:
+clone@2.x, clone@^2.1.1:
   version "2.1.2"
   resolved "https://npm.uinnova.cn/clone/-/clone-2.1.2.tgz#1b7f4b9f591f1e8f83670401600345a02887435f"
   integrity sha1-G39Ln1kfHo+DZwQBYANFoCiHQ18=
@@ -3124,7 +3091,7 @@ connect-history-api-fallback@^1.6.0:
   resolved "https://npm.uinnova.cn/connect-history-api-fallback/-/connect-history-api-fallback-1.6.0.tgz#8b32089359308d111115d81cad3fceab888f97bc"
   integrity sha1-izIIk1kwjRERFdgcrT/Oq4iPl7w=
 
-console-browserify@1.1.x, console-browserify@^1.1.0:
+console-browserify@^1.1.0:
   version "1.1.0"
   resolved "https://npm.uinnova.cn/console-browserify/-/console-browserify-1.1.0.tgz#f0241c45730a9fc6323b206dbf38edc741d0bb10"
   integrity sha1-8CQcRXMKn8YyOyBtvzjtx0HQuxA=
@@ -3305,14 +3272,6 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-cross-fetch@^2.2.2:
-  version "2.2.3"
-  resolved "https://npm.uinnova.cn/cross-fetch/-/cross-fetch-2.2.3.tgz#e8a0b3c54598136e037f8650f8e823ccdfac198e"
-  integrity sha1-6KCzxUWYE24Df4ZQ+OgjzN+sGY4=
-  dependencies:
-    node-fetch "2.1.2"
-    whatwg-fetch "2.0.4"
-
 cross-spawn@^5.0.1, cross-spawn@^5.1.0:
   version "5.1.0"
   resolved "https://npm.uinnova.cn/cross-spawn/-/cross-spawn-5.1.0.tgz#e8bd0efee58fcff6f8f94510a0a554bbfa235449"
@@ -3349,11 +3308,6 @@ crypto-browserify@^3.11.0:
     public-encrypt "^4.0.0"
     randombytes "^2.0.0"
     randomfill "^1.0.3"
-
-crypto-js@^3.1.9-1:
-  version "3.1.9-1"
-  resolved "https://npm.uinnova.cn/crypto-js/-/crypto-js-3.1.9-1.tgz#fda19e761fc077e01ffbfdc6e9fdfc59e8806cd8"
-  integrity sha1-/aGedh/Ad+Af+/3G6f38WeiAbNg=
 
 crypto-random-string@^1.0.0:
   version "1.0.0"
@@ -3633,11 +3587,6 @@ dateformat@^2.0.0:
   resolved "https://npm.uinnova.cn/dateformat/-/dateformat-2.2.0.tgz#4065e2013cf9fb916ddfd82efb506ad4c6769062"
   integrity sha1-QGXiATz5+5Ft39gu+1Bq1MZ2kGI=
 
-dcv-tool@^0.1.3:
-  version "0.1.3"
-  resolved "https://npm.uinnova.cn/dcv-tool/-/dcv-tool-0.1.3.tgz#0310eaf5a804d9e7585f7439c64d7c6b5581d383"
-  integrity sha1-AxDq9agE2edYX3Q5xk18a1WB04M=
-
 de-indent@^1.0.2:
   version "1.0.2"
   resolved "https://npm.uinnova.cn/de-indent/-/de-indent-1.0.2.tgz#b2038e846dc33baa5796128d0804b455b8c1e21d"
@@ -3670,13 +3619,6 @@ debug@4.1.0:
   integrity sha1-NzaHv/pnizixzZH4YbY4UANd3Ic=
   dependencies:
     ms "^2.1.1"
-
-debug@=3.1.0:
-  version "3.1.0"
-  resolved "https://npm.uinnova.cn/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
-  integrity sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==
-  dependencies:
-    ms "2.0.0"
 
 debug@^3.1.0, debug@^3.2.5, debug@^3.2.6:
   version "3.2.6"
@@ -3736,11 +3678,6 @@ deepmerge@^1.5.2:
   version "1.5.2"
   resolved "https://npm.uinnova.cn/deepmerge/-/deepmerge-1.5.2.tgz#10499d868844cdad4fee0842df8c7f6f0c95a753"
   integrity sha1-EEmdhohEza1P7ghC34x/bwyVp1M=
-
-deepmerge@^2.2.1:
-  version "2.2.1"
-  resolved "https://npm.uinnova.cn/deepmerge/-/deepmerge-2.2.1.tgz#5d3ff22a01c00f645405a2fbc17d0778a1801170"
-  integrity sha1-XT/yKgHAD2RUBaL7wX0HeKGAEXA=
 
 deepmerge@^3.2.0:
   version "3.2.1"
@@ -4012,13 +3949,6 @@ domexception@^1.0.1:
   dependencies:
     webidl-conversions "^4.0.2"
 
-domhandler@2.3:
-  version "2.3.0"
-  resolved "https://npm.uinnova.cn/domhandler/-/domhandler-2.3.0.tgz#2de59a0822d5027fabff6f032c2b25a2a8abe738"
-  integrity sha1-LeWaCCLVAn+r/28DLCsloqir5zg=
-  dependencies:
-    domelementtype "1"
-
 domhandler@^2.3.0:
   version "2.4.2"
   resolved "https://npm.uinnova.cn/domhandler/-/domhandler-2.4.2.tgz#8805097e933d65e85546f726d60f5eb88b44f803"
@@ -4026,7 +3956,7 @@ domhandler@^2.3.0:
   dependencies:
     domelementtype "1"
 
-domutils@1.5, domutils@1.5.1:
+domutils@1.5.1:
   version "1.5.1"
   resolved "https://npm.uinnova.cn/domutils/-/domutils-1.5.1.tgz#dcd8488a26f563d61079e48c9f7b7e32373682cf"
   integrity sha1-3NhIiib1Y9YQeeSMn3t+Mjc2gs8=
@@ -4144,13 +4074,6 @@ electron-to-chromium@^1.3.164:
   resolved "https://npm.uinnova.cn/electron-to-chromium/-/electron-to-chromium-1.3.165.tgz#51864c9e3c9bd9e1c020b9493fddcc0f49888e3a"
   integrity sha1-UYZMnjyb2eHAILlJP93MD0mIjjo=
 
-element-resize-detector@^1.2.0:
-  version "1.2.0"
-  resolved "https://npm.uinnova.cn/element-resize-detector/-/element-resize-detector-1.2.0.tgz#63344fd6f4e5ecff6f018d027e17b281fd4fa338"
-  integrity sha1-YzRP1vTl7P9vAY0Cfheygf1Pozg=
-  dependencies:
-    batch-processor "1.0.0"
-
 elliptic@^6.0.0:
   version "6.4.1"
   resolved "https://npm.uinnova.cn/elliptic/-/elliptic-6.4.1.tgz#c2d0b7776911b86722c632c3c06c60f2f819939a"
@@ -4195,17 +4118,12 @@ enhanced-resolve@^4.1.0:
     memory-fs "^0.4.0"
     tapable "^1.0.0"
 
-entities@1.0:
-  version "1.0.0"
-  resolved "https://npm.uinnova.cn/entities/-/entities-1.0.0.tgz#b2987aa3821347fcde642b24fdfc9e4fb712bf26"
-  integrity sha1-sph6o4ITR/zeZCsk/fyeT7cSvyY=
-
 entities@^1.1.1:
   version "1.1.2"
   resolved "https://npm.uinnova.cn/entities/-/entities-1.1.2.tgz#bdfa735299664dfafd34529ed4f8522a275fea56"
   integrity sha1-vfpzUplmTfr9NFKe1PhSKidf6lY=
 
-errno@^0.1.1, errno@^0.1.3, errno@~0.1.7:
+errno@^0.1.3, errno@~0.1.7:
   version "0.1.7"
   resolved "https://npm.uinnova.cn/errno/-/errno-0.1.7.tgz#4684d71779ad39af177e3f007996f7c67c852618"
   integrity sha512-MfrRBDWzIWifgq6tJj60gkAwtLNb6sQPlcFrSOflcP1aFmmruKQ2wRnze/8V6kgyz7H3FF8Npzv78mZ7XLLflg==
@@ -4319,13 +4237,6 @@ eslint-config-jw397@^0.1.0:
     eslint-plugin-promise "*"
     eslint-plugin-standard "*"
 
-eslint-config-prettier@^4.3.0:
-  version "4.3.0"
-  resolved "https://npm.uinnova.cn/eslint-config-prettier/-/eslint-config-prettier-4.3.0.tgz#c55c1fcac8ce4518aeb77906984e134d9eb5a4f0"
-  integrity sha1-xVwfysjORRiut3kGmE4TTZ61pPA=
-  dependencies:
-    get-stdin "^6.0.0"
-
 eslint-config-standard@*, eslint-config-standard@^12.0.0:
   version "12.0.0"
   resolved "https://npm.uinnova.cn/eslint-config-standard/-/eslint-config-standard-12.0.0.tgz#638b4c65db0bd5a41319f96bba1f15ddad2107d9"
@@ -4357,13 +4268,6 @@ eslint-module-utils@^2.4.0:
   dependencies:
     debug "^2.6.8"
     pkg-dir "^2.0.0"
-
-eslint-plugin-babel@^5.3.0:
-  version "5.3.0"
-  resolved "https://npm.uinnova.cn/eslint-plugin-babel/-/eslint-plugin-babel-5.3.0.tgz#2e7f251ccc249326da760c1a4c948a91c32d0023"
-  integrity sha1-Ln8lHMwkkybadgwaTJSKkcMtACM=
-  dependencies:
-    eslint-rule-composer "^0.3.0"
 
 eslint-plugin-es@^1.3.1, eslint-plugin-es@^1.4.0:
   version "1.4.0"
@@ -4421,13 +4325,6 @@ eslint-plugin-node@^8.0.0:
     resolve "^1.8.1"
     semver "^5.5.0"
 
-eslint-plugin-prettier@^3.1.0:
-  version "3.1.0"
-  resolved "https://npm.uinnova.cn/eslint-plugin-prettier/-/eslint-plugin-prettier-3.1.0.tgz#8695188f95daa93b0dc54b249347ca3b79c4686d"
-  integrity sha1-hpUYj5XaqTsNxUskk0fKO3nEaG0=
-  dependencies:
-    prettier-linter-helpers "^1.0.0"
-
 eslint-plugin-promise@*, eslint-plugin-promise@^4.0.1:
   version "4.1.1"
   resolved "https://npm.uinnova.cn/eslint-plugin-promise/-/eslint-plugin-promise-4.1.1.tgz#1e08cb68b5b2cd8839f8d5864c796f56d82746db"
@@ -4459,11 +4356,6 @@ eslint-plugin-vuefix@^0.2.1:
   dependencies:
     parse5 "^2.1.5"
 
-eslint-rule-composer@^0.3.0:
-  version "0.3.0"
-  resolved "https://npm.uinnova.cn/eslint-rule-composer/-/eslint-rule-composer-0.3.0.tgz#79320c927b0c5c0d3d3d2b76c8b4a488f25bbaf9"
-  integrity sha1-eTIMknsMXA09PSt2yLSkiPJbuvk=
-
 eslint-scope@3.7.1:
   version "3.7.1"
   resolved "https://npm.uinnova.cn/eslint-scope/-/eslint-scope-3.7.1.tgz#3d63c3edfda02e06e01a452ad88caacc7cdcb6e8"
@@ -4489,14 +4381,16 @@ eslint-scope@^4.0.0, eslint-scope@^4.0.3:
     estraverse "^4.1.1"
 
 eslint-utils@^1.3.0, eslint-utils@^1.3.1:
-  version "1.3.1"
-  resolved "https://npm.uinnova.cn/eslint-utils/-/eslint-utils-1.3.1.tgz#9a851ba89ee7c460346f97cf8939c7298827e512"
-  integrity sha1-moUbqJ7nxGA0b5fPiTnHKYgn5RI=
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/eslint-utils/-/eslint-utils-1.4.3.tgz#74fec7c54d0776b6f67e0251040b5806564e981f"
+  integrity sha512-fbBN5W2xdY45KulGXmLHZ3c3FHfVYmKg0IrAKGOkT/464PQsx2UeIzfz1RmEci+KLm1bBaAzZAh8+/E+XAeZ8Q==
+  dependencies:
+    eslint-visitor-keys "^1.1.0"
 
-eslint-visitor-keys@^1.0.0:
-  version "1.0.0"
-  resolved "https://npm.uinnova.cn/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
-  integrity sha1-PzGA+y4pEBdxastMnW1bXDSmqB0=
+eslint-visitor-keys@^1.0.0, eslint-visitor-keys@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.1.0.tgz#e2a82cea84ff246ad6fb57f9bde5b46621459ec2"
+  integrity sha512-8y9YjtM1JBJU/A9Kc+SbaOV4y29sSWckBwMHa+FGtVj5gN/sbnKDf6xJUl+8g7FAij9LVaP8C24DUiH/f/2Z9A==
 
 eslint@*:
   version "5.16.0"
@@ -4752,7 +4646,7 @@ execa@^1.0.0:
     signal-exit "^3.0.0"
     strip-eof "^1.0.0"
 
-exit@0.1.2, exit@0.1.x, exit@^0.1.2:
+exit@^0.1.2:
   version "0.1.2"
   resolved "https://npm.uinnova.cn/exit/-/exit-0.1.2.tgz#0632638f8d877cc82107d30a0fff1a17cba1cd0c"
   integrity sha1-BjJjj42HfMghB9MKD/8aF8uhzQw=
@@ -4951,11 +4845,6 @@ fast-deep-equal@^2.0.1:
   version "2.0.1"
   resolved "https://npm.uinnova.cn/fast-deep-equal/-/fast-deep-equal-2.0.1.tgz#7b05218ddf9667bf7f370bf7fdb2cb15fdd0aa49"
   integrity sha1-ewUhjd+WZ79/Nwv3/bLLFf3Qqkk=
-
-fast-diff@^1.1.2:
-  version "1.2.0"
-  resolved "https://npm.uinnova.cn/fast-diff/-/fast-diff-1.2.0.tgz#73ee11982d86caaf7959828d519cfe927fac5f03"
-  integrity sha1-c+4RmC2Gyq95WYKNUZz+kn+sXwM=
 
 fast-glob@^2.2.6:
   version "2.2.7"
@@ -5233,13 +5122,6 @@ flush-write-stream@^1.0.0, flush-write-stream@^1.0.2:
   dependencies:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
-
-follow-redirects@1.5.10:
-  version "1.5.10"
-  resolved "https://npm.uinnova.cn/follow-redirects/-/follow-redirects-1.5.10.tgz#7b7a9f9aea2fdff36786a94ff643ed07f4ff5e2a"
-  integrity sha1-e3qfmuov3/NnhqlP9kPtB/T/Xio=
-  dependencies:
-    debug "=3.1.0"
 
 follow-redirects@^1.0.0:
   version "1.7.0"
@@ -6092,17 +5974,6 @@ html-webpack-plugin@^3.2.0:
     toposort "^1.0.0"
     util.promisify "1.0.0"
 
-htmlparser2@3.8.x:
-  version "3.8.3"
-  resolved "https://npm.uinnova.cn/htmlparser2/-/htmlparser2-3.8.3.tgz#996c28b191516a8be86501a7d79757e5c70c1068"
-  integrity sha1-mWwosZFRaovoZQGn15dX5ccMEGg=
-  dependencies:
-    domelementtype "1"
-    domhandler "2.3"
-    domutils "1.5"
-    entities "1.0"
-    readable-stream "1.1"
-
 htmlparser2@^3.10.0, htmlparser2@^3.3.0:
   version "3.10.1"
   resolved "https://npm.uinnova.cn/htmlparser2/-/htmlparser2-3.10.1.tgz#bd679dc3f59897b6a34bb10749c855bb53a9392f"
@@ -6268,11 +6139,6 @@ ignore@^5.0.2, ignore@^5.1.1:
   version "5.1.2"
   resolved "https://npm.uinnova.cn/ignore/-/ignore-5.1.2.tgz#e28e584d43ad7e92f96995019cc43b9e1ac49558"
   integrity sha1-4o5YTUOtfpL5aZUBnMQ7nhrElVg=
-
-image-size@~0.5.0:
-  version "0.5.5"
-  resolved "https://npm.uinnova.cn/image-size/-/image-size-0.5.5.tgz#09dfd4ab9d20e29eb1c3e80b8990378df9e3cb9c"
-  integrity sha1-Cd/Uq50g4p6xw+gLiZA3jfnjy5w=
 
 import-cwd@^2.0.0:
   version "2.1.0"
@@ -6505,11 +6371,6 @@ is-buffer@^1.1.5:
   version "1.1.6"
   resolved "https://npm.uinnova.cn/is-buffer/-/is-buffer-1.1.6.tgz#efaa2ea9daa0d7ab2ea13a97b2b8ad51fefbe8be"
   integrity sha512-NcdALwpXkTm5Zvvbk7owOUSvVvBKDgKP5/ewfXEznmQFfs4ZRmanOeKBTjRVjka3QFoN6XJ+9F3USqfHqTaU5w==
-
-is-buffer@^2.0.2:
-  version "2.0.3"
-  resolved "https://npm.uinnova.cn/is-buffer/-/is-buffer-2.0.3.tgz#4ecf3fcf749cbd1e472689e109ac66261a25e725"
-  integrity sha512-U15Q7MXTuZlrbymiz95PJpZxu8IlipAp4dtS3wOdgPXx3mqBnslrWU14kxfHB+Py/+2PVKSr37dMAgM2A4uArw==
 
 is-callable@^1.1.4:
   version "1.1.4"
@@ -6978,20 +6839,6 @@ istanbul-reports@^1.5.1:
   dependencies:
     handlebars "^4.0.3"
 
-iview@^3.4.0:
-  version "3.4.2"
-  resolved "https://npm.uinnova.cn/iview/-/iview-3.4.2.tgz#1deafe8183fe29b9b33179d85faa37b3813b0f73"
-  integrity sha1-Her+gYP+KbmzMXnYX6o3s4E7D3M=
-  dependencies:
-    async-validator "^1.10.0"
-    deepmerge "^2.2.1"
-    element-resize-detector "^1.2.0"
-    js-calendar "^1.2.3"
-    lodash.throttle "^4.1.1"
-    popper.js "^1.14.6"
-    tinycolor2 "^1.4.1"
-    v-click-outside-x "^3.5.6"
-
 javascript-stringify@^1.6.0:
   version "1.6.0"
   resolved "https://npm.uinnova.cn/javascript-stringify/-/javascript-stringify-1.6.0.tgz#142d111f3a6e3dae8f4a9afd77d45855b5a9cce3"
@@ -7107,14 +6954,6 @@ jest-environment-node@^23.4.0:
   dependencies:
     jest-mock "^23.2.0"
     jest-util "^23.4.0"
-
-jest-fetch-mock@^2.1.2:
-  version "2.1.2"
-  resolved "https://npm.uinnova.cn/jest-fetch-mock/-/jest-fetch-mock-2.1.2.tgz#1260b347918e3931c4ec743ceaf60433da661bd0"
-  integrity sha1-EmCzR5GOOTHE7HQ86vYEM9pmG9A=
-  dependencies:
-    cross-fetch "^2.2.2"
-    promise-polyfill "^7.1.1"
 
 jest-get-type@^22.1.0:
   version "22.4.3"
@@ -7346,11 +7185,6 @@ jest@^23.6.0:
     import-local "^1.0.0"
     jest-cli "^23.6.0"
 
-jquery@>=1.9.1, jquery@^3.4.0:
-  version "3.4.1"
-  resolved "https://npm.uinnova.cn/jquery/-/jquery-3.4.1.tgz#714f1f8d9dde4bdfa55764ba37ef214630d80ef2"
-  integrity sha1-cU8fjZ3eS9+lV2S6N+8hRjDYDvI=
-
 js-beautify@^1.6.12, js-beautify@^1.6.14:
   version "1.10.0"
   resolved "https://npm.uinnova.cn/js-beautify/-/js-beautify-1.10.0.tgz#9753a13c858d96828658cd18ae3ca0e5783ea672"
@@ -7361,11 +7195,6 @@ js-beautify@^1.6.12, js-beautify@^1.6.14:
     glob "^7.1.3"
     mkdirp "~0.5.1"
     nopt "~4.0.1"
-
-js-calendar@^1.2.3:
-  version "1.2.3"
-  resolved "https://npm.uinnova.cn/js-calendar/-/js-calendar-1.2.3.tgz#a583b0644b4e695ba394f344d103dbcc7a7a7d3e"
-  integrity sha1-pYOwZEtOaVujlPNE0QPbzHp6fT4=
 
 js-levenshtein@^1.1.3:
   version "1.1.6"
@@ -7454,20 +7283,6 @@ jsesc@~0.5.0:
   resolved "https://npm.uinnova.cn/jsesc/-/jsesc-0.5.0.tgz#e7dee66e35d6fc16f710fe91d5cf69f70f08911d"
   integrity sha1-597mbjXW/Bb3EP6R1c9p9w8IkR0=
 
-jshint@^2.10.2:
-  version "2.10.2"
-  resolved "https://npm.uinnova.cn/jshint/-/jshint-2.10.2.tgz#ed6626c4f8223c98e94aaea62767435427a49a3d"
-  integrity sha1-7WYmxPgiPJjpSq6mJ2dDVCekmj0=
-  dependencies:
-    cli "~1.0.0"
-    console-browserify "1.1.x"
-    exit "0.1.x"
-    htmlparser2 "3.8.x"
-    lodash "~4.17.11"
-    minimatch "~3.0.2"
-    shelljs "0.3.x"
-    strip-json-comments "1.0.x"
-
 json-parse-better-errors@^1.0.1, json-parse-better-errors@^1.0.2:
   version "1.0.2"
   resolved "https://npm.uinnova.cn/json-parse-better-errors/-/json-parse-better-errors-1.0.2.tgz#bb867cfb3450e69107c131d1c514bab3dc8bcaa9"
@@ -7553,13 +7368,6 @@ jsprim@^1.2.2:
     extsprintf "1.3.0"
     json-schema "0.2.3"
     verror "1.10.0"
-
-jstree@^3.3.7:
-  version "3.3.8"
-  resolved "https://npm.uinnova.cn/jstree/-/jstree-3.3.8.tgz#8d0f506028d65e5207efa7b78e6541cbe35622c1"
-  integrity sha1-jQ9QYCjWXlIH76e3jmVBy+NWIsE=
-  dependencies:
-    jquery ">=1.9.1"
 
 just-debounce@^1.0.0:
   version "1.0.0"
@@ -7667,31 +7475,6 @@ left-pad@^1.3.0:
   version "1.3.0"
   resolved "https://npm.uinnova.cn/left-pad/-/left-pad-1.3.0.tgz#5b8a3a7765dfe001261dde915589e782f8c94d1e"
   integrity sha1-W4o6d2Xf4AEmHd6RVYnngvjJTR4=
-
-less-loader@^5.0.0:
-  version "5.0.0"
-  resolved "https://npm.uinnova.cn/less-loader/-/less-loader-5.0.0.tgz#498dde3a6c6c4f887458ee9ed3f086a12ad1b466"
-  integrity sha1-SY3eOmxsT4h0WO6e0/CGoSrRtGY=
-  dependencies:
-    clone "^2.1.1"
-    loader-utils "^1.1.0"
-    pify "^4.0.1"
-
-less@^3.9.0:
-  version "3.9.0"
-  resolved "https://npm.uinnova.cn/less/-/less-3.9.0.tgz#b7511c43f37cf57dc87dffd9883ec121289b1474"
-  integrity sha1-t1EcQ/N89X3Iff/ZiD7BISibFHQ=
-  dependencies:
-    clone "^2.1.2"
-  optionalDependencies:
-    errno "^0.1.1"
-    graceful-fs "^4.1.2"
-    image-size "~0.5.0"
-    mime "^1.4.1"
-    mkdirp "^0.5.0"
-    promise "^7.1.1"
-    request "^2.83.0"
-    source-map "~0.6.0"
 
 leven@^2.1.0:
   version "2.1.0"
@@ -8048,11 +7831,6 @@ lodash.templatesettings@^4.0.0:
   dependencies:
     lodash._reinterpolate "~3.0.0"
 
-lodash.throttle@^4.1.1:
-  version "4.1.1"
-  resolved "https://npm.uinnova.cn/lodash.throttle/-/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
-  integrity sha1-wj6RtxAkKscMN/HhzaknTMOb8vQ=
-
 lodash.transform@^4.6.0:
   version "4.6.0"
   resolved "https://npm.uinnova.cn/lodash.transform/-/lodash.transform-4.6.0.tgz#12306422f63324aed8483d3f38332b5f670547a0"
@@ -8063,7 +7841,7 @@ lodash.uniq@^4.5.0:
   resolved "https://npm.uinnova.cn/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-lodash@4.17.11, lodash@4.x, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.1, lodash@^4.3.0, lodash@~4.17.11:
+lodash@4.17.11, lodash@4.x, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.1, lodash@^4.3.0:
   version "4.17.11"
   resolved "https://npm.uinnova.cn/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
   integrity sha1-s56mIp72B+zYniyN8SU2iRysm40=
@@ -8385,7 +8163,7 @@ mime-types@^2.1.12, mime-types@~2.1.17, mime-types@~2.1.19, mime-types@~2.1.24:
   dependencies:
     mime-db "1.40.0"
 
-mime@1.6.0, mime@^1.4.1:
+mime@1.6.0:
   version "1.6.0"
   resolved "https://npm.uinnova.cn/mime/-/mime-1.6.0.tgz#32cd9e5c64553bd58d19a568af452acff04981b1"
   integrity sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==
@@ -8432,7 +8210,7 @@ minimatch@3.0.3:
   dependencies:
     brace-expansion "^1.0.0"
 
-minimatch@^3.0.2, minimatch@^3.0.3, minimatch@^3.0.4, minimatch@~3.0.2:
+minimatch@^3.0.2, minimatch@^3.0.3, minimatch@^3.0.4:
   version "3.0.4"
   resolved "https://npm.uinnova.cn/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
   integrity sha512-yJHVQEhyqPLUTgt9B83PXu6W3rx4MvvHvSUvToogpwoGDOUQ+yDrR0HRot+yOCdCO7u4hX3pWft6kWBBcqh0UA==
@@ -8715,11 +8493,6 @@ node-cache@^4.1.1:
   dependencies:
     clone "2.x"
     lodash "4.x"
-
-node-fetch@2.1.2:
-  version "2.1.2"
-  resolved "https://npm.uinnova.cn/node-fetch/-/node-fetch-2.1.2.tgz#ab884e8e7e57e38a944753cec706f788d1768bb5"
-  integrity sha1-q4hOjn5X44qUR1POxwb3iNF2i7U=
 
 node-forge@0.7.5:
   version "0.7.5"
@@ -9611,11 +9384,6 @@ pn@^1.1.0:
   resolved "https://npm.uinnova.cn/pn/-/pn-1.1.0.tgz#e2f4cef0e219f463c179ab37463e4e1ecdccbafb"
   integrity sha1-4vTO8OIZ9GPBeas3Rj5OHs3Muvs=
 
-popper.js@^1.14.6:
-  version "1.15.0"
-  resolved "https://npm.uinnova.cn/popper.js/-/popper.js-1.15.0.tgz#5560b99bbad7647e9faa475c6b8056621f5a4ff2"
-  integrity sha1-VWC5m7rXZH6fqkdca4BWYh9aT/I=
-
 portfinder@^1.0.20:
   version "1.0.20"
   resolved "https://npm.uinnova.cn/portfinder/-/portfinder-1.0.20.tgz#bea68632e54b2e13ab7b0c4775e9b41bf270e44a"
@@ -9988,13 +9756,6 @@ preserve@^0.2.0:
   resolved "https://npm.uinnova.cn/preserve/-/preserve-0.2.0.tgz#815ed1f6ebc65926f865b310c0713bcb3315ce4b"
   integrity sha1-gV7R9uvGWSb4ZbMQwHE7yzMVzks=
 
-prettier-linter-helpers@^1.0.0:
-  version "1.0.0"
-  resolved "https://npm.uinnova.cn/prettier-linter-helpers/-/prettier-linter-helpers-1.0.0.tgz#d23d41fe1375646de2d0104d3454a3008802cf7b"
-  integrity sha1-0j1B/hN1ZG3i0BBNNFSjAIgCz3s=
-  dependencies:
-    fast-diff "^1.1.2"
-
 prettier@1.16.3:
   version "1.16.3"
   resolved "https://npm.uinnova.cn/prettier/-/prettier-1.16.3.tgz#8c62168453badef702f34b45b6ee899574a6a65d"
@@ -10054,18 +9815,6 @@ promise-inflight@^1.0.1:
   version "1.0.1"
   resolved "https://npm.uinnova.cn/promise-inflight/-/promise-inflight-1.0.1.tgz#98472870bf228132fcbdd868129bad12c3c029e3"
   integrity sha1-mEcocL8igTL8vdhoEputEsPAKeM=
-
-promise-polyfill@^7.1.1:
-  version "7.1.2"
-  resolved "https://npm.uinnova.cn/promise-polyfill/-/promise-polyfill-7.1.2.tgz#ab05301d8c28536301622d69227632269a70ca3b"
-  integrity sha1-qwUwHYwoU2MBYi1pInYyJppwyjs=
-
-promise@^7.1.1:
-  version "7.3.1"
-  resolved "https://npm.uinnova.cn/promise/-/promise-7.3.1.tgz#064b72602b18f90f29192b8b1bc418ffd1ebd3bf"
-  integrity sha512-nolQXZ/4L+bP/UGlkfaIujX9BKxGwmQ9OT4mOt5yvy8iK1h3wqTEJCijzGANTCCl9nWjY41juyAn2K3Q1hLLTg==
-  dependencies:
-    asap "~2.0.3"
 
 prompts@^0.1.9:
   version "0.1.14"
@@ -10355,16 +10104,6 @@ read-pkg@^5.0.0:
     string_decoder "~1.1.1"
     util-deprecate "~1.0.1"
 
-readable-stream@1.1:
-  version "1.1.13"
-  resolved "https://npm.uinnova.cn/readable-stream/-/readable-stream-1.1.13.tgz#f6eef764f514c89e2b9e23146a75ba106756d23e"
-  integrity sha1-9u73ZPUUyJ4rniMUanW6EGdW0j4=
-  dependencies:
-    core-util-is "~1.0.0"
-    inherits "~2.0.1"
-    isarray "0.0.1"
-    string_decoder "~0.10.x"
-
 readable-stream@1.1.x, readable-stream@~1.1.9:
   version "1.1.14"
   resolved "https://npm.uinnova.cn/readable-stream/-/readable-stream-1.1.14.tgz#7cf4c54ef648e3813084c636dd2079e166c081d9"
@@ -10629,7 +10368,7 @@ request-promise-native@^1.0.5, request-promise-native@^1.0.7:
     stealthy-require "^1.1.1"
     tough-cookie "^2.3.3"
 
-request@^2.83.0, request@^2.87.0, request@^2.88.0:
+request@^2.87.0, request@^2.88.0:
   version "2.88.0"
   resolved "https://npm.uinnova.cn/request/-/request-2.88.0.tgz#9c2fca4f7d35b592efe57c7f0a55e81052124fef"
   integrity sha1-nC/KT301tZLv5Xx/ClXoEFIST+8=
@@ -11072,11 +10811,6 @@ shell-quote@^1.6.1:
     array-map "~0.0.0"
     array-reduce "~0.0.0"
     jsonify "~0.0.0"
-
-shelljs@0.3.x:
-  version "0.3.0"
-  resolved "https://npm.uinnova.cn/shelljs/-/shelljs-0.3.0.tgz#3596e6307a781544f591f37da618360f31db57b1"
-  integrity sha1-NZbmMHp4FUT1kfN9phg2DzHbV7E=
 
 shellwords@^0.1.1:
   version "0.1.1"
@@ -11602,26 +11336,10 @@ strip-indent@^2.0.0:
   resolved "https://npm.uinnova.cn/strip-indent/-/strip-indent-2.0.0.tgz#5ef8db295d01e6ed6cbf7aab96998d7822527b68"
   integrity sha1-XvjbKV0B5u1sv3qrlpmNeCJSe2g=
 
-strip-json-comments@1.0.x:
-  version "1.0.4"
-  resolved "https://npm.uinnova.cn/strip-json-comments/-/strip-json-comments-1.0.4.tgz#1e15fbcac97d3ee99bf2d73b4c656b082bbafb91"
-  integrity sha1-HhX7ysl9Pumb8tc7TGVrCCu6+5E=
-
 strip-json-comments@^2.0.0, strip-json-comments@^2.0.1, strip-json-comments@~2.0.1:
   version "2.0.1"
   resolved "https://npm.uinnova.cn/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
   integrity sha1-PFMZQukIwml8DsNEhYwobHygpgo=
-
-style-resources-loader@^1.2.1:
-  version "1.2.1"
-  resolved "https://npm.uinnova.cn/style-resources-loader/-/style-resources-loader-1.2.1.tgz#7679d5dc2f27046b2fc2b83c1d5b6c1b8a9b820c"
-  integrity sha1-dnnV3C8nBGsvwrg8HVtsG4qbggw=
-  dependencies:
-    glob "^7.1.2"
-    is-callable "^1.1.4"
-    is-plain-object "^2.0.4"
-    is-promise "^2.1.0"
-    loader-utils "^1.1.0"
 
 stylehacks@^4.0.0:
   version "4.0.3"
@@ -11913,11 +11631,6 @@ timsort@^0.3.0:
   resolved "https://npm.uinnova.cn/timsort/-/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
   integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
 
-tinycolor2@^1.4.1:
-  version "1.4.1"
-  resolved "https://npm.uinnova.cn/tinycolor2/-/tinycolor2-1.4.1.tgz#f4fad333447bc0b07d4dc8e9209d8f39a8ac77e8"
-  integrity sha1-9PrTM0R7wLB9TcjpIJ2POaisd+g=
-
 tmp@^0.0.33:
   version "0.0.33"
   resolved "https://npm.uinnova.cn/tmp/-/tmp-0.0.33.tgz#6d34335889768d21b2bcda0aa277ced3b1bfadf9"
@@ -12137,71 +11850,6 @@ uglify-js@^3.0.5, uglify-js@^3.1.4:
   dependencies:
     commander "~2.20.0"
     source-map "~0.6.1"
-
-uino-i18n@^2.238.0, uino-i18n@^2.243.0:
-  version "2.243.0"
-  resolved "https://npm.uinnova.cn/uino-i18n/-/uino-i18n-2.243.0.tgz#32d6f562320949e29aa25e2d9b1e606d3e6650ed"
-  integrity sha512-TSfshrtIOdM6h1CYLwJgWMijBw0S56ZEu2OsQH3QZFKPZ+UufALtjMEW6uP6PwOygIUQL/Ii8YvJaI46M99qZA==
-
-uino-icons@^1.6.10, uino-icons@^1.6.9:
-  version "1.7.0"
-  resolved "https://npm.uinnova.cn/uino-icons/-/uino-icons-1.7.0.tgz#530c1fb85ec623d6b395dabe677a1e302fbe8e59"
-  integrity sha512-peu8QObRIxowxbcaybXIhEZtmFQeY0Q/38u/zZOX6aKV3dIp0bxyjWmBTTaii0YYmeX7EmzSO7uDZhbR9XqgaQ==
-
-uino-iview@^0.0.13:
-  version "0.0.13"
-  resolved "https://npm.uinnova.cn/uino-iview/-/uino-iview-0.0.13.tgz#305d1995060eacabebd9f78291a7df6a3b02643c"
-  integrity sha512-ML2Y+qPDHkhMxJ8/Vk2zcTM0Ed43UUB55VwysBVLczBPxh1LtOZLVQlOUUHntqot86k3CR2QCmV59qYO48snfA==
-  dependencies:
-    async-validator "^1.10.0"
-    deepmerge "^2.2.1"
-    element-resize-detector "^1.2.0"
-    js-calendar "^1.2.3"
-    lodash.throttle "^4.1.1"
-    popper.js "^1.14.6"
-    tinycolor2 "^1.4.1"
-    v-click-outside-x "^3.5.6"
-
-uino-iview@^0.0.17:
-  version "0.0.17"
-  resolved "https://npm.uinnova.cn/uino-iview/-/uino-iview-0.0.17.tgz#1f526136589f618f2299cda88b0c4732978c324e"
-  integrity sha512-8J6q1rmfIODhsJWL3jA7tbifpR7jdxhCKPqjJB8EdSw8AUyL7GUBSmwmrKXByWkFDLAbkRHdJJAt0uFjVxJURw==
-  dependencies:
-    async-validator "^1.10.0"
-    deepmerge "^2.2.1"
-    element-resize-detector "^1.2.0"
-    js-calendar "^1.2.3"
-    lodash.throttle "^4.1.1"
-    popper.js "^1.14.6"
-    tinycolor2 "^1.4.1"
-    v-click-outside-x "^3.5.6"
-
-uino-tarsier-vue-lib@^0.1.36:
-  version "0.1.36"
-  resolved "https://npm.uinnova.cn/uino-tarsier-vue-lib/-/uino-tarsier-vue-lib-0.1.36.tgz#349541c9243ab4c7cadd5f1d17952bc961dc7b17"
-  integrity sha512-YDKqq+8ehaDlzQkJ82reiJA0go/uFMx7HFPk+2U0pwWACU5y+N0FHhYiLCZyBJTuz8FgPpAN2zAZelTJ1ovkJQ==
-  dependencies:
-    babel-polyfill "^6.26.0"
-    core-js "^2.6.5"
-    crypto-js "^3.1.9-1"
-    eslint-config-prettier "^4.3.0"
-    eslint-plugin-babel "^5.3.0"
-    eslint-plugin-prettier "^3.1.0"
-    jest-fetch-mock "^2.1.2"
-    jshint "^2.10.2"
-    style-resources-loader "^1.2.1"
-    uino-i18n "^2.238.0"
-    uino-icons "^1.6.10"
-    uino-iview "^0.0.17"
-    uino-tarsier "^2.3.3"
-    vue "^2.6.10"
-    vue-router "^3.0.3"
-    vuex "^3.0.1"
-
-uino-tarsier@^2.3.1, uino-tarsier@^2.3.3:
-  version "2.3.3"
-  resolved "https://npm.uinnova.cn/uino-tarsier/-/uino-tarsier-2.3.3.tgz#3cc115d8aef16cd824481d5080f40085ac685b6d"
-  integrity sha512-xNI47p4ZvFdWmZ9vTbcpnhjEzI7Shugr40VDfs/PjJP3EXfvZh8zcT/aWDevubh05jkZiNQQUdPPrhJW43vj+g==
 
 unc-path-regex@^0.1.2:
   version "0.1.2"
@@ -12462,11 +12110,6 @@ uuid@^3.0.1, uuid@^3.3.2:
   resolved "https://npm.uinnova.cn/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
   integrity sha512-yXJmeNaw3DnnKAOKJE51sL/ZaYfWJRl1pK9dr19YFCu0ObS231AB1/LbqTKRAQ5kw8A90rA6fr4riOUpTZvQZA==
 
-v-click-outside-x@^3.5.6:
-  version "3.7.1"
-  resolved "https://npm.uinnova.cn/v-click-outside-x/-/v-click-outside-x-3.7.1.tgz#aa03eaa0e41e44cb5207dcf86c2d9f0dd64084c1"
-  integrity sha1-qgPqoOQeRMtSB9z4bC2fDdZAhME=
-
 v8flags@^3.0.1:
   version "3.1.3"
   resolved "https://npm.uinnova.cn/v8flags/-/v8flags-3.1.3.tgz#fc9dc23521ca20c5433f81cc4eb9b3033bb105d8"
@@ -12662,7 +12305,7 @@ vue@^2.6.10:
   resolved "https://npm.uinnova.cn/vue/-/vue-2.6.10.tgz#a72b1a42a4d82a721ea438d1b6bf55e66195c637"
   integrity sha1-pysaQqTYKnIepDjRtr9V5mGVxjc=
 
-vuex@^3.0.1, vuex@^3.1.0:
+vuex@^3.1.0:
   version "3.1.1"
   resolved "https://npm.uinnova.cn/vuex/-/vuex-3.1.1.tgz#0c264bfe30cdbccf96ab9db3177d211828a5910e"
   integrity sha1-DCZL/jDNvM+Wq52zF30hGCilkQ4=
@@ -12864,16 +12507,6 @@ whatwg-encoding@^1.0.1, whatwg-encoding@^1.0.3:
   integrity sha1-WrrPd3wyFmpR0IXWtPPn0nET3bA=
   dependencies:
     iconv-lite "0.4.24"
-
-whatwg-fetch@2.0.4:
-  version "2.0.4"
-  resolved "https://npm.uinnova.cn/whatwg-fetch/-/whatwg-fetch-2.0.4.tgz#dde6a5df315f9d39991aa17621853d720b85566f"
-  integrity sha1-3eal3zFfnTmZGqF2IYU9cguFVm8=
-
-whatwg-fetch@^3.0.0:
-  version "3.0.0"
-  resolved "https://npm.uinnova.cn/whatwg-fetch/-/whatwg-fetch-3.0.0.tgz#fc804e458cc460009b1a2b966bc8817d2578aefb"
-  integrity sha1-/IBORYzEYACbGiuWa8iBfSV4rvs=
 
 whatwg-mimetype@^2.1.0, whatwg-mimetype@^2.2.0:
   version "2.3.0"
